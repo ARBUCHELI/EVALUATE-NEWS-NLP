@@ -1,4 +1,4 @@
-/*function checkForName(inputText) {
+function checkForName(inputText) {
     console.log("::: Running checkForName :::", inputText);
     let names = [
         "Picard",
@@ -13,13 +13,4 @@
     }
 }
 
-export { checkForName }*/
-function isValidURL(inputText) {
-    const pattern = new RegExp(
-      /^(https?:\/\/)?(www\.)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}\/?([^\s]*)$/i
-    );
-    return pattern.test(inputText);
-  }
-  
-  export { isValidURL };
-  
+export { checkForName }
