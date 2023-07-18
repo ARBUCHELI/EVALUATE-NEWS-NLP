@@ -13,14 +13,24 @@ input {
     border: 1px solid #bd5734;
     border-radius: 5px;
     font-family:'Courier New', Courier, monospace;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 #submit {
     background-color: #feb236;
     margin-left: 0.6em;
     font-weight: bold;
-    color: #c94c4c;
+    color: #034f84;
+    border: 1.5px solid #034f84;
+    font-size: 2em;
 }
+
+#submit:hover {
+    cursor: pointer;
+    color: #feb236;
+    background-color: #034f84;
+    border: 1.5px solid #feb236;; 
+}
+
 
 

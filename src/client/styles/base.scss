@@ -2,11 +2,27 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #d9ad7c;
+    background-color: #b7d7e8;
 }
 
 main {
     flex: 2;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 130px;
+    font-size: 2.5em;
+    margin-top: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    border: solid 1px #b7d7e8;
+    background-color: #034f84;
+    color: white;
+    border-radius: 5px;
 }
 
 section {
@@ -18,7 +34,7 @@ section {
 #formres {
     font-weight: bold;
     font-family:'Courier New', Courier, monospace;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 
