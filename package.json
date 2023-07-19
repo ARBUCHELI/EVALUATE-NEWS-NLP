@@ -1,8 +1,7 @@
 {
-  "name": "example-project",
+  "name": "final-project-evaluate-news-nlp",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server/index.js",
@@ -10,7 +9,7 @@
     "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andres R. Bucheli",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -20,7 +19,6 @@
     "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "form-data": "^4.0.0",
-    "node-fetch": "^3.3.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   },
